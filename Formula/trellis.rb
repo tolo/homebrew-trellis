@@ -1,28 +1,28 @@
 class Trellis < Formula
   desc "CLI for the Trellis template engine: scaffold, build, and serve sites"
   homepage "https://github.com/tolo/trellis"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tolo/trellis/releases/download/v0.12.0/trellis-v0.12.0-macos-arm64.tar.gz"
-      sha256 "fdfd1c8a58f6121c902c14dc4b9c0662b912bc54cb0fe3f35a483ffeecb47aee"
+      url "https://github.com/tolo/trellis/releases/download/v0.13.0/trellis-v0.13.0-macos-arm64.tar.gz"
+      sha256 "2bc5e465dc785499a7952c129aa116c62741028746649e4ed0817d616bad4a68"
     end
     on_intel do
-      url "https://github.com/tolo/trellis/releases/download/v0.12.0/trellis-v0.12.0-macos-x64.tar.gz"
-      sha256 "4091db665c990cb94211b11f02e64ccaf4e8d7516daf0405a771ab84a7fdbf07"
+      url "https://github.com/tolo/trellis/releases/download/v0.13.0/trellis-v0.13.0-macos-x64.tar.gz"
+      sha256 "035210b042907eb7a27eb2526057e8a300a9cc125717e1e3c0c40b299608b46c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tolo/trellis/releases/download/v0.12.0/trellis-v0.12.0-linux-arm64.tar.gz"
-      sha256 "861f18b3ea2e72a2173675e4d4767be8c72c5de0b20c7b616d227f078d9f7a0b"
+      url "https://github.com/tolo/trellis/releases/download/v0.13.0/trellis-v0.13.0-linux-arm64.tar.gz"
+      sha256 "6654616892e46e094391055b404f67a128145536a59e3e5f19a2c65d5cd86c12"
     end
     on_intel do
-      url "https://github.com/tolo/trellis/releases/download/v0.12.0/trellis-v0.12.0-linux-x64.tar.gz"
-      sha256 "7a6e0428bc656b65336548f195b746c90f21fa9880b4945bc16c1e69bed95607"
+      url "https://github.com/tolo/trellis/releases/download/v0.13.0/trellis-v0.13.0-linux-x64.tar.gz"
+      sha256 "cf7717921322d05e67864e855375c11e919c38857fff619be226da846daf5932"
     end
   end
 
